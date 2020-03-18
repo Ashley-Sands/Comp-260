@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-03-18T15:47:50.657Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="BbZPeoxyY6gecAEbdVgp" version="12.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-03-18T15:53:27.670Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="5jPYcehIZYUsJuMz-vDH" version="12.8.6" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
-    <mxGraphModel dx="1673" dy="3403" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="3243" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="iMbrbaBTNEFGXNvbshlo-156" value="Untitled Layer" parent="0" />
@@ -327,12 +327,8 @@
         <mxCell id="BmKUf66JoiR6lxN3HfAb-44" value="Connect to Server" style="html=1;strokeWidth=1;align=center;" parent="BmKUf66JoiR6lxN3HfAb-2" vertex="1">
           <mxGeometry x="78" y="-753" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="BmKUf66JoiR6lxN3HfAb-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;dashed=1;" parent="BmKUf66JoiR6lxN3HfAb-2" source="BmKUf66JoiR6lxN3HfAb-47" edge="1">
+        <mxCell id="BmKUf66JoiR6lxN3HfAb-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="BmKUf66JoiR6lxN3HfAb-2" source="BmKUf66JoiR6lxN3HfAb-47" target="Gk83BuQbbGuSDowAynj9-123" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="54" y="-658" />
-              <mxPoint x="54" y="-396" />
-            </Array>
             <mxPoint x="116" y="-409" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -737,24 +733,6 @@
         <mxCell id="Gk83BuQbbGuSDowAynj9-158" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=none;endFill=0;strokeColor=#000000;" edge="1" parent="Gk83BuQbbGuSDowAynj9-102" source="Gk83BuQbbGuSDowAynj9-138" target="Gk83BuQbbGuSDowAynj9-137">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Gk83BuQbbGuSDowAynj9-126" value="Levels" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;swimlaneFillColor=#ffffff;align=center;fontSize=14;strokeColor=#000000;" vertex="1" parent="Gk83BuQbbGuSDowAynj9-102">
-          <mxGeometry x="565" y="-298" width="160" height="81" as="geometry" />
-        </mxCell>
-        <mxCell id="Gk83BuQbbGuSDowAynj9-127" value="Contains all the basic info &#xa;for each level, such as mix &#xa;and max players." style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="Gk83BuQbbGuSDowAynj9-126">
-          <mxGeometry y="26" width="160" height="55" as="geometry" />
-        </mxCell>
-        <mxCell id="Gk83BuQbbGuSDowAynj9-128" value="Lobbies" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;swimlaneFillColor=#ffffff;align=center;fontSize=14;strokeColor=#000000;" vertex="1" parent="Gk83BuQbbGuSDowAynj9-102">
-          <mxGeometry x="747" y="-298" width="160" height="81" as="geometry" />
-        </mxCell>
-        <mxCell id="Gk83BuQbbGuSDowAynj9-129" value="Simperly stores a lobby ID &#xa;which is used to group &#xa;players together for games" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="Gk83BuQbbGuSDowAynj9-128">
-          <mxGeometry y="26" width="160" height="55" as="geometry" />
-        </mxCell>
-        <mxCell id="Gk83BuQbbGuSDowAynj9-134" value="Games" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;swimlaneFillColor=#ffffff;align=center;fontSize=14;strokeColor=#000000;" vertex="1" parent="Gk83BuQbbGuSDowAynj9-102">
-          <mxGeometry x="926" y="-298" width="160" height="81" as="geometry" />
-        </mxCell>
-        <mxCell id="Gk83BuQbbGuSDowAynj9-135" value="Used to store the games &#xa;info such as the lobby ID, &#xa;Level ID and game slot ID" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="Gk83BuQbbGuSDowAynj9-134">
-          <mxGeometry y="26" width="160" height="55" as="geometry" />
-        </mxCell>
         <mxCell id="Gk83BuQbbGuSDowAynj9-136" value="Game Slots" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;swimlaneFillColor=#ffffff;align=center;fontSize=14;strokeColor=#000000;" vertex="1" parent="Gk83BuQbbGuSDowAynj9-102">
           <mxGeometry x="1111" y="-298" width="160" height="81" as="geometry" />
         </mxCell>
@@ -766,6 +744,35 @@
         </mxCell>
         <mxCell id="Gk83BuQbbGuSDowAynj9-123" value="Contains all information for &#xa;each active user including &#xa;there lobbie and game ID" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="Gk83BuQbbGuSDowAynj9-122">
           <mxGeometry y="26" width="160" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="Gk83BuQbbGuSDowAynj9-159" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=none;endFill=0;strokeColor=#000000;dashed=1;" edge="1" parent="Gk83BuQbbGuSDowAynj9-102" source="iMbrbaBTNEFGXNvbshlo-160" target="Gk83BuQbbGuSDowAynj9-128">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gk83BuQbbGuSDowAynj9-160" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;startArrow=none;startFill=0;endArrow=none;endFill=0;strokeColor=#000000;" edge="1" parent="Gk83BuQbbGuSDowAynj9-102" source="iMbrbaBTNEFGXNvbshlo-181">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="265.8965517241379" y="-404.0689655172414" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gk83BuQbbGuSDowAynj9-128" value="Lobbies" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;swimlaneFillColor=#ffffff;align=center;fontSize=14;strokeColor=#000000;" vertex="1" parent="Gk83BuQbbGuSDowAynj9-102">
+          <mxGeometry x="565" y="-296" width="160" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="Gk83BuQbbGuSDowAynj9-129" value="Simperly stores a lobby ID &#xa;which is used to group &#xa;players together for games" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="Gk83BuQbbGuSDowAynj9-128">
+          <mxGeometry y="26" width="160" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="Gk83BuQbbGuSDowAynj9-134" value="Games" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;swimlaneFillColor=#ffffff;align=center;fontSize=14;strokeColor=#000000;" vertex="1" parent="Gk83BuQbbGuSDowAynj9-102">
+          <mxGeometry x="747" y="-296" width="160" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="Gk83BuQbbGuSDowAynj9-135" value="Used to store the games &#xa;info such as the lobby ID, &#xa;Level ID and game slot ID" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="Gk83BuQbbGuSDowAynj9-134">
+          <mxGeometry y="26" width="160" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="Gk83BuQbbGuSDowAynj9-126" value="Levels" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;swimlaneFillColor=#ffffff;align=center;fontSize=14;strokeColor=#000000;" vertex="1" parent="Gk83BuQbbGuSDowAynj9-102">
+          <mxGeometry x="929" y="-298" width="160" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="Gk83BuQbbGuSDowAynj9-127" value="Contains all the basic info &#xa;for each level, such as mix &#xa;and max players." style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="Gk83BuQbbGuSDowAynj9-126">
+          <mxGeometry y="26" width="160" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="Gk83BuQbbGuSDowAynj9-161" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="Gk83BuQbbGuSDowAynj9-102">
+          <mxGeometry x="854" y="-580" width="32" height="18" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
