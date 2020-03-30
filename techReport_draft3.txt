@@ -1,0 +1,35 @@
+# Optermizing The PING time of a multiplayer game server
+
+Recently iv been tasked creating and depolying online multiplayer service for a turn based game.
+
+When i first set out i just waanted to create a vary basic game server, clients would connect and join the game, then each client would take it in turns to run some actions that would happen on every elses computer and BOOM multiplayer server done!, great.
+
+Well...
+
+No. I now wanted to start building the game up a little and decided to add a player limit to the level, which now mean i had to make the server a little more robust, and do somthink with any players that arrived once the game is full. So i went about adding a lobby, that would que the players up and once a player leaves the game the next in the que would be added to the game, awsome.
+
+Still not awsome enough, i now decided i wanted a game to last for a fixed amount of time and once it started no one new could join. So i changed the server from only being abale to handle a single lobby/game to mulitple lobbies and games. It was prity simple in the way it worked, 
+
+[State UML, server_v1_2-lobby]
+
+This now mean we had a class structur along the lines of
+
+[class UML, server_v1_2]
+
+Fantasic.
+
+Well...
+
+err, ummmm... preformance?
+
+At this point all i can think about is preformance, obviously with this "all-in-one" approch sooner or later we're going to run into some issues, due the fact we can have any number of lobbies and some fixed amount of games. Eventually its going to slow and dramatically impact the gaming experience, which is obviously somthink we want to avoid at all cost.
+
+Luckery for me, at this point i was being introduced to the concecpt of containerization[#somthinkAboutContatners] using docker [#docker] and container-orchestration[#somthinkAboutOrchestration] using Kubernetes [#kubernets]
+
+...
+
+### REFS
+#docker
+#somthinkAboutContatners
+#kubernets
+#somthinkAboutOrchestration

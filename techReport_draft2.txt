@@ -1,0 +1,30 @@
+## Wellcome,
+Recently Iv been tasked with creating and deploying an online multiplayer service for a turn based RPG, the project itself is relativly small in scale [but it still has a number of intressing problumes that need to be overcome.]
+but still, theres a lot to consider and number of intressing problumes to overcome especilly if we want a scalable solution.
+
+It one thing being able to run a single instance of the game module in the cloud, that alows you and a couple of friends enjoy the project youve been working on the last couple of mounths. But how do we scale this up to multiple instances of the game running, alowing player to join the game of there chosses. 
+
+In this post, we'll be focusing on the server side of things and descuess 2 different approches to deliver an online multiplayer game service. The first of the two is a bit of an "All-In-One" solution, while the second is more of a "Micro Service" approch. We'll take a look at some of the advatages and disadvatages of both solutions, futhermore we'll also take a look at timings of each solution.
+
+[MAYBE a bit about our tech stack]
+
+[For instance, its all well and good being able to run a single game instance in the cloud, that alows you and a couple of buddys to enjoy the project youve been working on for the last couple of mounths. But what happens when you want to run multiple instances of our game at the same time, how do we ensure that users are directed to the correct game instance and even thurther alow the player to sellect the match that they would like to join.]
+
+## 
+When i first set off on the project i was only really aiming to create a singe game instance with a little lobby so users can wait until theres enought players to begin the game.
+
+## The "All-In-One" Solution
+
+## The Problumes
+
+## The Solution
+
+## In Theory
+
+## Its Problumes
+
+## Benchmarking.
+
+# Where do we go from here...
+
+

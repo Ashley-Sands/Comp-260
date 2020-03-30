@@ -1,0 +1,39 @@
+Creating a multiplayer game server for a turn-base game.
+-------
+From single instance games server to a dynamicly scalable solution,
+Getting prepaprted for could orchestration 
+
+#TODO:
+- [ ] Add testing protocols to single server
+- [ ] Add Testing protocols to scalable server
+
+- [ ] make docker and deploy single
+
+- [ ] Get bench marks for both
+
+# NOTES.
+## The test (both)
+
+- [ ] ping
+- [ ] message
+- [ ] all lobby data (fast request)
+- [ ] lobby update
+- [ ] random game commands
+
+### PING PROTOTYPE
+
+The ping protocols is sent from the client to the server and returned.
+the process time is the amount of time from queing the outbout message to reciveing it back
+the server has to process the message in the same way as any other message. 
+the ping is not just recived and imeadetly returned.
+
+Can garentee that the cient and host time match. but the time that the server recives the message is recorded.
+
+
+# Backstory
+... 
+
+# Testing.
+...
+
+# 
