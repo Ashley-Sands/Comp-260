@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-03-31T13:10:34.840Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="dNFObOftsitkRWEJVLKg" version="12.9.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-03-31T13:24:57.648Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="ZbpLtxmdvxxGFTF4lf2p" version="12.9.4" type="github">
   <diagram id="G6aAyCiUhe-DF7zZhqXM" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -459,13 +459,13 @@
             <mxPoint x="830" y="1370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="urJCP8OpHEJr19VCwwud-105" value="Docker, Entry Host" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#050505;" vertex="1" parent="1">
+        <mxCell id="urJCP8OpHEJr19VCwwud-105" value="Docker, Entry Host" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#050505;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="510" y="1370" width="220" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="urJCP8OpHEJr19VCwwud-106" value="Docker, Lobby Host" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#050505;" vertex="1" parent="1">
+        <mxCell id="urJCP8OpHEJr19VCwwud-106" value="Docker, Lobby Host" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#050505;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="880" y="1370" width="220" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="urJCP8OpHEJr19VCwwud-107" value="Docker Game Host" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#050505;" vertex="1" parent="1">
+        <mxCell id="urJCP8OpHEJr19VCwwud-107" value="Docker Game Host" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#050505;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="1150" y="1370" width="140" height="20" as="geometry" />
         </mxCell>
         <mxCell id="WDJNQAaPPTsATFnZAzZO-32" value="Untitled Layer" parent="0" />
