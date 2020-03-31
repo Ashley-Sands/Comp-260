@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-03-31T12:46:55.541Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="J2h7DppD8cqYdgJVigfy" version="12.9.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-03-31T12:54:54.436Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="2oJOCe_S5h6w9YxdlgMd" version="12.9.4" type="github">
   <diagram id="G6aAyCiUhe-DF7zZhqXM" name="Page-1">
     <mxGraphModel dx="2031" dy="1089" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -92,7 +92,7 @@
           <mxGeometry x="560" y="760" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="WDJNQAaPPTsATFnZAzZO-33" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=3;" parent="1" vertex="1">
-          <mxGeometry x="360" y="220" width="960" height="350" as="geometry" />
+          <mxGeometry x="360" y="220" width="930" height="350" as="geometry" />
         </mxCell>
         <mxCell id="WDJNQAaPPTsATFnZAzZO-70" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="600" y="530" width="10" height="120" as="geometry" />
@@ -169,6 +169,9 @@
         </mxCell>
         <mxCell id="WDJNQAaPPTsATFnZAzZO-94" value="Docker - SQL -&lt;br&gt;Bridge Network" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="650" y="230" width="120" height="30.5" as="geometry" />
+        </mxCell>
+        <mxCell id="urJCP8OpHEJr19VCwwud-18" value="Docker Container Setup" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontColor=#050505;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="40" y="140" width="1570" height="40" as="geometry" />
         </mxCell>
         <mxCell id="WDJNQAaPPTsATFnZAzZO-32" value="Untitled Layer" parent="0" />
         <mxCell id="WDJNQAaPPTsATFnZAzZO-34" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Docker.svg;" parent="WDJNQAaPPTsATFnZAzZO-32" vertex="1">
